@@ -1,0 +1,64 @@
+.body{
+    padding:0;
+    margin:0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    flex: 100%;
+    flex-direction: row;
+    padding: 2px;
+    border: 1px black solid;
+    /* background-color: brown; */
+}
+/* 
+@media (max-width: 800px) {
+    .Header {
+        flex: 50%;
+        max-width: 50%;
+    }
+} */
+
+.Header{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.About-us{
+    height: 300px;
+}
+
+.Services{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 317px;
+}
+
+.what-we-do{
+    height: 200px;
+}
+
+.Portfolio{
+    height: 400px;
+}
+
+.Contact-us{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 445px;
+}
+
+.Footer{
+    height: 100px;
+}
