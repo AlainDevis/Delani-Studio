@@ -101,14 +101,15 @@ img{
 
 .item{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 15% 15% 15% 15%;
     grid-gap:10px;
-    width: 70%;
+    justify-content: center;
 }
 
-.Portfolio > img{
+.item > div > img{
     background-size: contain;
     background-repeat: no-repeat;
+    /* width: 60%; */
 }
 
 .Contact-us{
