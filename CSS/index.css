@@ -118,6 +118,12 @@ img{
     height: 445px;
 }
 
+.form-control > input {
+    background-color: transparent;
+    color: #fff;
+    border: 1px #fff solid;
+}
+
 .Footer{
     height: 100px;
 }
