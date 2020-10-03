@@ -88,7 +88,27 @@ img{
 }
 
 .Portfolio{
-    height: 400px;
+    height: 450px;
+}
+
+.Portfolio > h1{
+    text-align: center;
+}
+
+.Portfolio > div{
+    text-align: center;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:10px;
+    width: 70%;
+}
+
+.Portfolio > img{
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .Contact-us{
