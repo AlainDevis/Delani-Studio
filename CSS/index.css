@@ -65,19 +65,22 @@ img{
     color: #fff;
     text-align: center;
 }
-
-.item1{grid-area: what;}
-.item2{grid-area: pictures;}
 .what-we-do{
-    display: grid;
-    grid-template-areas:'what what what what what''pictures pictures pictures pictures pictures'; 
-    /* flex-wrap: wrap; */
+    /* display: grid;
+    grid-template-rows: auto auto; */
+    /* justify-content: center; */
     height: 200px;
 }
 
-/* .what-we-do > div{
-    padding: 2px; 
-} */
+.what-we-do> h1{
+    text-align: center;
+}
+
+.item2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
 
 .what-we-do > img{
     background-size: contain;
