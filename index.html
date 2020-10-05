@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="./CSS/index.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Secular+One">
     <!-- <link rel="stylesheet" href="./CSS/bootstrap.css" type="text/css"> -->
+    <script src="./Js/jquery-3.5.1.min.js"></script>
+    <script src="./Js/index.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="Header" style="background-image: url('./Images/backgrounds/h_img.jpg');">
+        <div class="Header">
             <img src="./Images/logo/logo.png" class="logo">
-            <h1>WELCOME</h1>
+            <h1 id="welcome">WELCOME</h1>
             <h1>TO DELANI STUDIO</h1>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN FUN ENVIRONMENT</p>
             <img src="./Images/logo/mouse_click.png" class="mouse-click">
@@ -22,7 +25,7 @@
             <p>Our approach unifies design, development and product management to create exceptional products.</p>
             <p>We start each project by understanding your business goals, the user's needs and the product requirements <br/> Then we help translate them into effective and elegant solutions.</p>
         </div>
-        <div class="Services" style="background-image: url('./Images/backgrounds/s_image.jpg');">
+        <div class="Services">
             <h2>SERVICES</h2>
             <p>Before we sign a contract or write a line of codde our team will spend the necessary time neede to understand your product vision.</p>
             <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
@@ -31,15 +34,15 @@
         <div class="what-we-do">
             <h1>WHAT WE DO</h1>
             <div class="item2">
-                <div><img src="./Images/services_icons/design_icon.png"></div>
-                <div><img src="./Images/services_icons/dev_icon.png"></div>
-                <div><img src="./Images/services_icons/product_icon.png"></div>
+                <div id="design"><img src="./Images/services_icons/design_icon.png"></div>
+                <div id="development"><img src="./Images/services_icons/dev_icon.png"></div>
+                <div id="product"><img src="./Images/services_icons/product_icon.png"></div>
             </div>
         </div>
         <div class="Portfolio">
             <h1>PORTFOLIO</h1>
             <div class="item">
-                <div><img src="./Images/portfolio/work4.jpg"></div>
+                <div id="work4"><img src="./Images/portfolio/work4.jpg"></div>
                 <div><img src="./Images/portfolio/work3.jpg"></div>
                 <div><img src="./Images/portfolio/work2.jpg"></div>
                 <div><img src="./Images/portfolio/work1.jpg"></div>
@@ -49,14 +52,28 @@
                 <div><img src="./Images/portfolio/work8.jpg"></div>
             </div>
         </div>
-        <div class="Contact-us" style="background-image: url('./Images/backgrounds/c_image.jpg');">
+        <div class="Contact-us">
             <h1>CONTACT US</h1>
             <form action="" class="form-control">
                 <input class="t-input" type="text" placeholder="Name"><input class="t-input" type="email" placeholder="Email"> <br/>
                 <textarea id="t-area">Your message here.... </textarea>
             </form>
         </div>
-        <div class="Footer"></div>
+        <div class="Footer">
+            <div class="social-icons">
+                <div><img src="./Images/social_icons/twitter.png"></div>
+                <div><img src="./Images/social_icons/dribble.png"></div>
+                <div><img src="./Images/social_icons/facebook.png"></div>
+                <div><img src="./Images/social_icons/g_plus.png"></div>
+                <div><img src="./Images/social_icons/skype.png"></div>
+                <div><img src="./Images/social_icons/stumble_upon.png"></div>
+                <div><img src="./Images//social_icons/behance.png"></div>
+                <div><img src="./Images/social_icons/pinterest.png"></div>
+                <div><img src="./Images/social_icons/flickr.png"></div>
+            </div>
+            <p>DELANI STUDIO</p>
+            <p>2019</p>
+        </div>
     </div>
 </body>
 </html>

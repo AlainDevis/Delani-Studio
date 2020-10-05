@@ -1,7 +1,10 @@
 .body{
     padding:0;
-    margin:0;
-}
+    margin: 0;
+    font-family:"Secular One" ;
+    font-weight: bold;
+    background-color: #fff;
+  }
 
 img{
     max-width: 100%;
@@ -35,6 +38,8 @@ img{
     height: 700px;
     text-align: center;
     color: #fff;
+    font-weight: bold;
+    background-image: url('../Images/backgrounds/h_img.jpg');
 }
 
 .logo{
@@ -56,6 +61,7 @@ img{
 .About-us{
     height: 250px;
     text-align: center;
+    font-weight: bold;
 }
 
 .Services{
@@ -64,6 +70,8 @@ img{
     height: 317px;
     color: #fff;
     text-align: center;
+    font-weight: bold;
+    background-image: url('../Images/backgrounds/s_image.jpg');
 }
 
 .Services > h2{
@@ -75,6 +83,7 @@ img{
     grid-template-rows: auto auto; */
     /* justify-content: center; */
     height: 200px;
+    font-weight: bold;
 }
 
 .what-we-do> h1{
@@ -94,6 +103,7 @@ img{
 
 .Portfolio{
     height: 430px;
+    font-weight: bold;
 }
 
 .Portfolio > h1{
@@ -109,6 +119,7 @@ img{
     grid-template-columns: 15% 15% 15% 15%;
     grid-gap:10px;
     justify-content: center;
+    font-weight: bold;
 }
 
 .item > div > img{
@@ -124,10 +135,12 @@ img{
     height: 445px;
     color: #fff;
     text-align: center;
+    font-weight: bold;
+    background-image: url('../Images/backgrounds/c_image.jpg');
 }
 
 .Contact-us > h1{
-    margin-top: 100px;
+    margin-top: 25px;
 }
 
 /* .form-control{
@@ -150,7 +163,7 @@ img{
 
 #t-area{
     width: 625px;
-    height: 100px;
+    height: 200px;
 }
 
 .t-input{
@@ -158,5 +171,15 @@ img{
 }
 
 .Footer{
-    height: 100px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-gap:10px;
+    margin-top: 30px;
+    justify-content: center;
 }
