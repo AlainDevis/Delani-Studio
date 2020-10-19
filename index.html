@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="./CSS/index.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Secular+One">
+    <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Secular+One"> -->
     <!-- <link rel="stylesheet" href="./CSS/bootstrap.css" type="text/css"> -->
-    <script src="./Js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- <script src="./Js/jquery-3.5.1.min.js"></script> -->
     <script src="./Js/index.js"></script>
 </head>
 <body>
@@ -34,24 +35,86 @@
         <div class="what-we-do">
             <h1>WHAT WE DO</h1>
             <div class="item2">
-                <div id="design"><img src="./Images/services_icons/design_icon.png"></div>
-                <div id="development"><img src="./Images/services_icons/dev_icon.png"></div>
-                <div id="product"><img src="./Images/services_icons/product_icon.png"></div>
+                <div class="design designshow">
+                    <img src="./Images/services_icons/design_icon.png">
+                    <p>DESIGN</p>
+                </div>
+                <div class="design designhide">
+                    <h4>DESIGN</h4>
+                    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br>
+                    <br> Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+                <div class="development developmentshow">
+                    <img src="./Images/services_icons/dev_icon.png">
+                    <P>DEVELOPMENT</P>
+                </div>
+                <div class="development developmenthide">
+                    <h4>DEVELOPMENT</h4>
+                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. <br><br>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                </div>
+                <div class="product productshow">
+                    <img src="./Images/services_icons/product_icon.png">
+                    <p>PRODUCT</p>
+                </div>
+                <div class="product producthide">
+                    <h4>PRODUCT MANAGEMENT</h4>
+                    <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br> This iterative process allows for changes as business requirements evolve.</p>
+                </div>
             </div>
         </div>
-        <div class="Portfolio">
+        <div class="Portfolio" >
             <h1>PORTFOLIO</h1>
             <div class="item">
-                <div id="work4"><img src="./Images/portfolio/work4.jpg"></div>
-                <div><img src="./Images/portfolio/work3.jpg"></div>
-                <div><img src="./Images/portfolio/work2.jpg"></div>
-                <div><img src="./Images/portfolio/work1.jpg"></div>
-                <div><img src="./Images/portfolio/work5.jpg"></div>
-                <div><img src="./Images/portfolio/work6.jpg"></div>
-                <div><img src="./Images/portfolio/work7.jpg"></div>
-                <div><img src="./Images/portfolio/work8.jpg"></div>
-            </div>
-        </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work4.jpg" >
+                <div class="overlay text-center">
+                    <p>Background</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work3.jpg">
+                <div class="overlay text-center">
+                    <p>Ontario Logo</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work2.jpg">
+                <div class="overlay text-center">
+                    <p>Orange Background</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work1.jpg">
+                <div class="overlay text-center">
+                    <p>Graphic Design</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work5.jpg" >
+                <div class="overlay text-center">
+                    <p>Website</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work6.jpg">
+                <div class="overlay text-center">
+                    <p>Color Setting</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work7.jpg" >
+                <div class="overlay text-center">
+                    <p>Burned C Logo</p>
+                </div>
+                </div>
+                <div class="porto">
+                <img src="./Images/portfolio/work8.jpg">
+                <div class="overlay text-center">
+                    <p>Restaurant</p>
+                </div>
+                </div>
+                </div>
+          </div>
         <div class="Contact-us">
             <h1>CONTACT US</h1>
             <form action="" class="form-control">

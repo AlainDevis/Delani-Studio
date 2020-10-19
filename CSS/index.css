@@ -82,7 +82,7 @@ img{
     /* display: grid;
     grid-template-rows: auto auto; */
     /* justify-content: center; */
-    height: 200px;
+    height: 300px;
     font-weight: bold;
 }
 
@@ -93,12 +93,19 @@ img{
 .item2{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.design, .development, .product {
+    width: 250px;
 }
 
 .what-we-do > img{
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.designhide, .developmenthide, .producthide{
+    display: none;
 }
 
 .Portfolio{
@@ -127,6 +134,19 @@ img{
     background-repeat: no-repeat;
     /* width: 60%; */
 }
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0.5;
+    display: none;
+    padding-top: 20%;
+    font-size: 50px;
+  }
 
 .Contact-us{
     justify-content: center;
